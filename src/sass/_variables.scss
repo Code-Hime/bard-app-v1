@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+// Import fonts
+@import url('https://fonts.googleapis.com/css?family=Eagle+Lake|Handlee|Montserrat|Shadows+Into+Light&display=swap');
+
+$insult-font: "Shadows Into Light";
+$inspire-font: "Montserrat";
+$card-title-font: "Eagle Lake";
+$title-font: "Eagle Lake";
+
+// Set your brand colors
+$purple: #410c48;
+$pink: #7e4185;
+$orange: #fd983b;
+$orange-light: #ffdf6f;
+$purple-light: #eee7ef;
+
+// Update Bulma's global variables
+$family-sans-serif: $card-title-font, sans-serif;
+$grey-dark: $orange;
+$grey-light: $orange-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$info: $primary;
+$shade-light: $purple-light;
+$primary-light: $shade-light;
+
+// Update some of Bulma's component variables
+$body-background-color: $purple;
+$control-border-width: 2px;
